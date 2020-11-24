@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>biglietto treno</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Calcolo costo tratta TrEnIbErIaLiA</h1>
+      <div class="box">
+        <div>
+          <label>Nome</label>
+          <input id="nome" type="text" name="nome" value="">
+        </div>
+        <div>
+          <label>chilometraggio</label>
+          <input id="km" type="text" name="km" value="">
+        </div>
+        <select id="categoria">
+          <option value="Over65">Over 65</option>
+          <option value="Maggiorenne">Maggiorenne</option>
+          <option value="Minorenne">Minorenne</option>
+        </select>
+      </div>
+      <div class="box box2">
+        <button id="crea" type="button" name="button">crea</button>
+        <button id="annulla" type="button" name="button">annulla</button>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div>Nome</div>
+          <div>Numero Treno</div>
+          <div>Carrozza</div>
+          <div>Categoria</div>
+          <div>Prezzo</div>
+        </div>
+        <div class="box">
+          <div id="name"></div>
+          <div id="numeroTreno"></div>
+          <div id="carrozza"></div>
+          <div id="categoria"></div>
+          <div id="prezzo"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+
+</html>

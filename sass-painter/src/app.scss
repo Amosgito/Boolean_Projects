@@ -1,0 +1,20 @@
+@import 'partials/common';
+@import 'partials/variables';
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';

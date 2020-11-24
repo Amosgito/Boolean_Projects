@@ -1,0 +1,27 @@
+GOAL: 
+GROUP BY
+    1 Conta gli ospiti raggruppandoli per anno di nascita
+    2 Somma i prezzi dei pagamenti raggruppandoli per status
+    3 Conta quante volte è stata prenotata ogni stanza
+    4 Fai una analisi per vedere se ci sono ore in cui le prenotazioni sono più frequenti
+JOIN
+    5 Come si chiamano gli ospiti che hanno fatto più di due prenotazioni?
+    6 Stampare tutti gli ospiti per ogni prenotazione
+    7 Stampare Nome, Cognome, Prezzo e Pagante per tutte le prenotazioni fatte a Maggio 2018
+    8 Fai la somma di tutti i prezzi delle prenotazioni per le stanze del primo piano
+    9 Prendi i dati di fatturazione per la prenotazione con id=7
+    10 Le stanze sono state tutte prenotate almeno una volta? (Visualizzare le stanze non ancora prenotate)
+
+
+    1 SELECT year(date_of_birth), COUNT(*) FROM ospiti GROUP BY(year(date_of_birth));
+
+    2 SELECT status, SUM(price) FROM pagamenti GROUP BY status
+
+    3 SELECT stanza_id, COUNT(stanza_id) FROM prenotazioni GROUP BY stanza_id
+
+    4 SELECT hour(created_at), COUNT(hour(created_at)) FROM prenotazioni GROUP BY hour(created_at)
+
+    5 SELECT COUNT(ospiti.name) > 2, ospiti.name FROM ospiti JOIN prenotazioni_has_ospiti ON prenotazioni_has_ospiti.ospite_id = ospiti.id GROUP BY ospiti.name
+
+    6 SELECT ospiti.name, ospiti.lastname, prenotazioni_has_ospiti.prenotazione_id FROM ospiti JOIN prenotazioni_has_ospiti ON prenotazioni_has_ospiti.ospite_id = ospiti.id
+

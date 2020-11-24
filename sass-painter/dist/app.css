@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: sans-serif;
+}
+
+header {
+  color: white;
+}
+
+header .blackbar {
+  background: black;
+  width: 100%;
+  height: 100px;
+}
+
+header .blackbar .container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50%;
+  padding: 10px 250px;
+}
+
+header .blackbar .container .contacts span {
+  margin: 0 10px;
+  color: grey;
+  font-size: 13px;
+}
+
+header .blackbar .container .contacts span i {
+  font-size: 13px;
+  margin-right: 10px;
+  color: #3f81eb;
+}
+
+header .blackbar .container .contacts span:hover {
+  cursor: pointer;
+}
+
+header .blackbar .container .contacts select {
+  border: none;
+  box-shadow: none;
+}
+
+header .blackbar .navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  padding: 0 200px;
+}
+
+header .blackbar .navbar .options ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+header .blackbar .navbar .options ul li {
+  margin: 0 20px;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+header .blackbar .navbar .options ul li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+header .blackbar .navbar .options ul li:first-child:hover {
+  background-color: transparent;
+}
+
+header .blackbar .navbar .options ul li img {
+  width: 90px;
+}
+
+header .blackbar .navbar .options ul li i {
+  margin-left: 5px;
+}
+
+header .hero {
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+
+header .hero img {
+  position: absolute;
+  top: 0;
+  left: -250px;
+  z-index: -1;
+  width: 2000px;
+}
+
+header .hero .essentials {
+  margin-left: 500px;
+  padding-top: 30px;
+}
+
+header .hero .essentials .title {
+  font-size: 28px;
+  padding: 20px 0;
+}
+
+header .hero .essentials .description {
+  font-size: 20px;
+  padding: 10px 0 20px 0;
+}
+
+header .hero .essentials .descriptionitem {
+  padding: 5px 0;
+}
+
+header .hero .essentials .descriptionitem i {
+  color: gray;
+}
+
+header .hero .essentials .downloadtrial {
+  width: 250px;
+  padding: 10px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+header .hero .essentials .downloadtrial .trial p {
+  margin: 5px;
+}
+
+header .hero .essentials .downloadtrial .downicon {
+  font-size: 30px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 2px solid white;
+}
+
+header .hero .essentials .downloadtrial:hover {
+  cursor: pointer;
+}
+
+header .hero .buy {
+  width: 380px;
+  height: 380px;
+  background: black;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+header .secondnav {
+  background: #d1d0d0;
+}
+
+header .secondnav ul {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  list-style: none;
+  width: 100%;
+}
+
+header .secondnav li {
+  padding: 20px 40px;
+}
+
+header .secondnav li:hover {
+  background: #f0eeee;
+  cursor: pointer;
+}
+
+main .intro {
+  position: relative;
+}
+
+main .intro img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+

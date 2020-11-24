@@ -1,0 +1,13 @@
+
+p {
+  width: 100px;
+  height: 100px;
+}
+
+.pari {
+  background-color: lightblue;
+}
+
+.dispari {
+  background-color: yellow;
+}

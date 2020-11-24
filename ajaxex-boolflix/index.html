@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+
+    <!-- SCRIPT HANDLEBARS MOVIES -->
+    <script id="film-template" type="text/x-handlebars-template">
+
+            <div class="card">
+                
+                    {{{poster_path}}}
+                
+                
+                <div class="list">
+                    <ul>
+                        <li><span>Title: </span> {{ title }}</li>
+                        <li><span>Original Title: </span> {{ original_title }}</li>
+                        <li><span>Language: </span> {{{ original_language }}} </li>
+                        <li><span>Vote: </span>{{{ vote_average }}}</li>
+                        <li><span>Overview: </span>{{{ overview }}}</li>
+                    </ul>
+                </div>
+            </div>
+        
+        
+        
+    </script>
+
+     <!-- SCRIPT HANDLEBARS TV-SERIES -->
+    <script id="series-template" type="text/x-handlebars-template">
+
+            <div class="card">
+                
+            
+                    {{{poster_path}}}
+                
+                     
+                <div class="list">
+                    <ul>
+                        <li><span>Title: </span> {{ name }}</li>
+                        <li><span>Original Title: </span> {{ original_name }}</li>
+                        <li><span>Language: </span> {{{ original_language }}} </li>
+                        <li><span>Vote: </span>{{{ vote_average }}}</li>
+                        <li><span>Overview: </span>{{{ overview }}}</li>
+                    </ul>
+                </>
+            </div>
+        
+       
+        
+    </script>
+
+    <script src="js\script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="inner">
+            <h1>BOOLFLIX</h1>
+            <div class="input">
+                <input id="input" type="text" placeholder="Film Title">
+                <button id="btn" type="button" class="btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <h2>MOVIES</h2>
+        <div id="append-list-movies" class="result">
+        </div>
+
+        <h2>TV SERIES</h2>
+        <div id="append-list-series" class="result">
+        </div>
+
+    </div>
+</body>
+
+</html>
+

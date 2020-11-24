@@ -1,0 +1,40 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: purple;
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-gap: 20px;
+    background-color: purple;
+    padding: 20px;
+}
+
+.grid-item {
+
+    background-color: pink;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.yellow {
+
+    background-color: yellow;
+}
+
+.green {
+
+    background-color: green;
+}

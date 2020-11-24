@@ -1,0 +1,64 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif; 
+}
+
+.navbar {
+
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    border-bottom: 1px solid gray;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.google {
+
+    display: flex;
+    padding: 30px 0 0 30px;
+}
+
+.google h2 {
+
+    margin-left: 30px;
+    color: gray;
+}
+
+.list {
+
+    display: flex;
+    margin-top: 10px;
+}
+
+.list span {
+    
+    margin-left: 30px;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list span:last-child {
+
+    color: blue;
+    border-bottom: 5px solid blue;
+}
+
+.domande {
+
+    padding: 170px 450px;
+}
+
+.domande h1{
+
+    margin-bottom: 20px;
+}

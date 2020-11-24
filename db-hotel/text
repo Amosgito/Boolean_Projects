@@ -1,0 +1,16 @@
+
+SELECT * FROM ospiti WHERE  document_type = 'ci';
+
+SELECT * FROM ospiti WHERE year(date_of_birth) > 1988;
+​
+SELECT * FROM ospiti WHERE year(getdate) - year(date_of_birth) > 20;
+
+SELECT * FROM ospiti WHERE name LIKE 'D%';
+
+SELECT * FROM pagamenti WHERE status LIKE 'accepted';
+
+SELECT MAX(price) FROM pagamenti;
+
+SELECT * FROM ospiti WHERE document_type LIKE 'driver licence' AND year(date_of_birth) = 1975   ???????????
+
+SELECT SUM(beds) FROM stanze;

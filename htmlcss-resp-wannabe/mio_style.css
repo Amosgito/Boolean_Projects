@@ -1,0 +1,31 @@
+
+
+/* responsive below 420px */
+@media screen and (max-width: 419px) {
+
+  .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  #why img {
+    width: 100px;
+    height: auto;
+  }
+
+}

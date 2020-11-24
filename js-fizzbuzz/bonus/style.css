@@ -1,0 +1,33 @@
+body {
+  background-image: linear-Gradient(to bottom, #118ab2, #06d6a0, #ffd166);
+}
+
+.title {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.ulgen li{
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.colorone {
+  color: red;
+  font-weight: bold;
+}
+
+.colortwo {
+  color: green;
+  font-weight: bold;
+}
+
+.colorthree {
+  color: orange;
+  font-weight: bold;
+}

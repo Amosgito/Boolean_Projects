@@ -1,0 +1,14 @@
+#p {
+  width: 200px;
+  height: 200px;
+}
+
+.testa {
+  background-image: url('moneta8.png');
+  background-size: contain;
+}
+
+.croce {
+  background-image: url('moneta0.png');
+  background-size: contain;
+}

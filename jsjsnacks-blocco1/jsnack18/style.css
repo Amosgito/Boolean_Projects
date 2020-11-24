@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerchio {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: orange;
+    padding: 2%;
+}
+
+.scritta {
+    display: none;
+}

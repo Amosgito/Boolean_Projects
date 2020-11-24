@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  padding: 0 10%;
+}
+
+[class*="col-"] {
+  text-align: center;
+}
+
+.screen {
+  width: 60%
+}
+
+.maps {
+  width: 40%
+}
+
+ .titolo {
+   padding: 20px 0;
+ }
+
+ .hero {
+   padding: 10px 0;
+ }
+
+ .comefunziona {
+   background-color: lightgray;
+ }
+
+.comefunziona h2 {
+  padding: 20px 0;
+}
+
+.comefuniona img,
+.comefunziona h4,
+.comefunziona p {
+  padding: 10px 0;
+}

@@ -1,0 +1,58 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: purple;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+.month-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    margin-top: 50px;
+    position: absolute;
+    top: 30px;
+}
+
+.month-header div {
+
+    padding: 0 200px;
+}
+
+.container {
+
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+
+.active {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#day-container {
+
+    list-style: none;
+}
+
+.red {
+    color: red;
+}

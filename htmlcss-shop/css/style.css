@@ -1,0 +1,74 @@
+.block {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  margin: 5px;
+}
+
+.childBlock {
+  background-color: lightgray;
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 500px;
+}
+
+/* discounts */
+.Discount {
+  background-color: green;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2px 5px;
+}
+
+.Discount.Red {
+  background-color: red;
+}
+
+/* products */
+.airpods {
+  position: absolute;
+  left: -54px;
+  top: 40px;
+  display: block;
+  max-width: 400px;
+}
+
+.iphone {
+  position: absolute;
+  left: -54px;
+  top: 40px;
+  display: block;
+  max-width: 400px;
+}
+
+.ipad {
+  position: absolute;
+  left: 14px;
+  top: 77px;
+  display: block;
+  max-width: 275px;
+}
+
+/* heart and hover */
+.childBlock .heart {
+display: none;
+position: absolute;
+bottom: 30px;
+left: 135px;
+}
+
+.childBlock .heart img {
+  width: 30px;
+  height: auto;
+}
+
+
+.childBlock:hover .heart {
+display: block;
+}
+
+.childBlock:hover {
+  cursor: pointer;
+}

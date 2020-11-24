@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centering {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  background-image: url('../img/fluentify-jumbo.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+  height: 550px;
+  background-color: #0c325a;
+}
+
+header li,a {
+  text-decoration: none;
+  color: white;
+}
+
+#logo {
+  margin-top: 15px;
+}
+
+.main-nav {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.left {
+  margin-left: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonna15 {
+  width: 15%;
+  float: left;
+}
+
+.colonna45 {
+  width: 45%;
+  float: left;
+}
+
+.colonna40 {
+  width: 40%;
+  float: left;
+}
+
+.buttonNull {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.buttonGreen {
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+main {
+  background-color: white;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+.colonna33 {
+  float: left;
+  width: calc(100% / 3);
+  /* debug */
+  background-color: red;
+  border: 1px solid black;
+  height: 100px;
+}
+
+.colonna50 {
+  float: left;
+  width: 50%;
+  /* debug */
+  background-color: red;
+  border: 1px solid black;
+  height: 100px;
+}
+
+.info {
+  background-color: gray;
+  height: 100px;
+}

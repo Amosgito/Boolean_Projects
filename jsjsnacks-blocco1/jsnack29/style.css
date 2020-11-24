@@ -1,0 +1,39 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: purple;
+    height: 100vh;
+    width: 100vh
+}
+
+h2, h1 {
+
+    color: white;
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+
+    color: white;
+}
+
+div > select {
+
+    padding: 10px;
+    margin: 20px;
+    
+}

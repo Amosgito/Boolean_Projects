@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.sydney {
+  background-image: url(../img/sydney.jpg);
+  background-size: cover;
+}
+
+.torino {
+  background-image: url(../img/torino.jfif);
+  background-size: cover;
+}
+
+.vancouver {
+  background-image: url(../img/vancouver.jpg);
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  display: block;
+  font-size: 100px;
+  color: white;
+  text-shadow: 5px 4px 3px black;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.layover {
+width: 100%;
+height: 100%;
+background-color: rgba(77, 5, 232, 0.2);
+}
